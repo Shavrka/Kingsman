@@ -1,0 +1,48 @@
+Kingsman project:
+  _  __  _
+ | |/ / (_)
+ | ' /   _   _ __     __ _   ___   _ __ ___     __ _   _ __
+ |  <   | | | '_ \   / _` | / __| | '_ ` _ \   / _` | | '_ \
+ | . \  | | | | | | | (_| | \__ \ | | | | | | | (_| | | | | |
+ |_|\_\ |_| |_| |_|  \__, | |___/ |_| |_| |_|  \__,_| |_| |_|
+                      __/ |
+                     |___/
+                    "Ovo je više od imena"
+
+24.07.2025 U 00:39 se rađa nova ideja, a to je da ja napravim svoj os baziran na Linux kernel-u (LOGIČNO PLUS PRELOGIČNO).
+
+Svrha ovog fajla je da vodim dokumentaciju sta sve radim na Arch Linux KDE Plasma okruzenju, jer cu posle da stavim i hyprland i da ga namijestam po svom ukusu
+
+Instaliran je VSCode i uradjeno ssh povezivanje GitHub-a sa Arch linux-om
+Koristim VSCode ovde za API code i hocu probati na archu daily drive, ako ne barem za programiranje bez distrakje na Fedori...
+
+Podesio jezike koje ja koristim i dodao shortcut za njih
+srpski latinica ctrl + alt + s
+srpski ciilica  ctrl + alt + c
+engleski        ctrl + alt + e
+
+Ovde su komande i modifikacije koje sam uradio
+Za azuriranje sistema      alias upgrade='sudo pacman -Syu --noconfirm'
+Za instaliranje programa   alias install='sudo pacman -S'
+Za brisanje programa       alias remove='sudo pacman -Rns'
+
+Instairane alikacije spotify, telegram i notion
+viber nisam uspio, trebam whatsapp i ne znam ni ja više šta
+ntion ne radi, samo je bijeli ekran, probati to sve riješiti kao i telegram koji ne rai...
+
+Probati srediti pakete za instalaciju aplikacija jer imam i flathub, yay, pacman i još neki ja misli (dobro sam mislio ima pip)... uglavnom skontati to i riještiti
+
+Podesiti sve da je programiranje lagano, namjestiti otvaranje prozora na sredini u određenoj veličini a ne razvučeno od vrha do dna
+
+ovo sve dokumentovati šta sam radio i kopirati sve potrbne fajlove na GitHub, napraviti dokumentaciju i automatizovanu skriptu da novi sistem namjesti po moim željama, i posle itu probati na arch-u i na nixos.
+    - probati virtualizaciju na arch linuxu
+
+Ovde ima instaliran Visual Studio Code koji imam i kao aplikaciju i preko komande "code" mogu pokrenuti. Na njega je dodan golang, jer planiram na ovome najviše da se posvetim programiranju (konkretno API i backend)
+
+Modifikovan Neofetch, urađen custom ascii Kingsman u ${c2} ljubičastoj boji...
+Uradio sam isto tako i za Fastfetch modifikaciju i napravio Kingsman ascii u zelenoj boji (po default-u)
+Namijestio sam spotify, telegram, I GRADIA SVEČANO RADI HEHEHE, Viber isto radi i na novotelu je prijavljn kao i whatsap web
+
+Prepravio sam modifikaciju u fastfetchu i podesio boju da bude ljubičasta (Kod boje koju koristim je #6f02bd)
+
+Za virtualizaciju koristim QEMU i KVM. Pokrećem ga sa komandom virt-manager preko terminala, ali može i kroz start.
